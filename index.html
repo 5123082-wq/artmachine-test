@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artmachine — Производство одежды</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__info">
+      <span>Швейное производство полного цикла</span>
+      <span>info@artmachine.ru</span>
+    </div>
+    <div class="topbar__contacts">
+      <a href="tel:+78001234567">8 800 123 45 67</a>
+      <span>Пн—Пт 09:00–18:00</span>
+    </div>
+  </header>
+
+  <div class="page">
+    <header class="header">
+      <div class="logo">artmachine</div>
+      <nav class="nav">
+        <a href="#services">Услуги</a>
+        <a href="#cases">Кейсы</a>
+        <a href="#team">Команда</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="header__cta">
+        <button class="btn btn--outline">Оставить заявку</button>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero__content">
+        <span class="hero__tag">Производство</span>
+        <h1>Производство одежды и изделий из ткани на заказ</h1>
+        <p>
+          Создаём коллекции и мерч для брендов, оформляем корпоративную одежду и реализуем
+          сложные кутюрные идеи в срок и без компромиссов по качеству.
+        </p>
+        <div class="hero__actions">
+          <button class="btn btn--primary">Обсудить проект</button>
+          <button class="btn btn--ghost">Смотреть портфолио</button>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__photo"></div>
+        <div class="hero__stamp">Make<br />it<br />real</div>
+      </div>
+    </section>
+
+    <section class="metrics">
+      <div class="metric">
+        <span class="metric__value">68т</span>
+        <span class="metric__label">ткани перерабатываем ежегодно</span>
+      </div>
+      <div class="metric">
+        <span class="metric__value">96%</span>
+        <span class="metric__label">клиентов приходят по рекомендации</span>
+      </div>
+      <div class="metric">
+        <span class="metric__value">120+</span>
+        <span class="metric__label">брендов и компаний доверяют нам</span>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="section-header">
+        <h2>Услуги</h2>
+        <p>Полный цикл производства от идеи и дизайна до упаковки и доставки.</p>
+      </div>
+      <div class="services__grid">
+        <article class="service service--dark">
+          <span class="service__tag">Шоурум</span>
+          <h3>Разработка коллекций</h3>
+          <p>
+            Создаём капсулы, сезонные линейки и мерч для брендов. Формируем концепцию,
+            подбираем ткани и фурнитуру, ведём техническую документацию.
+          </p>
+          <a href="#" class="service__link">Подробнее</a>
+        </article>
+        <article class="service service--light">
+          <h3>Производство</h3>
+          <p>
+            Кроим, отшиваем и контролируем качество. Оптимизируем техпроцессы для тиражей
+            любого масштаба.
+          </p>
+          <div class="service__image service__image--one"></div>
+        </article>
+        <article class="service service--yellow">
+          <h3>Корпоративная одежда</h3>
+          <p>
+            Разрабатываем стиль для персонала и одежды с фирменной айдентикой. Помогаем
+            усилить узнаваемость бренда.
+          </p>
+          <div class="service__image service__image--two"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="highlight">
+      <div class="highlight__text">
+        <h2>Рады присоединиться к вашей идее с первым эскизом или готовым ТЗ</h2>
+        <p>
+          Команда технологов, дизайнеров и конструкторов погружается в продукт, чтобы
+          предложить лучшие решения по материалам, посадке и бюджету.
+        </p>
+        <button class="btn btn--primary">Запросить смету</button>
+      </div>
+      <div class="highlight__visual">
+        <div class="highlight__photo"></div>
+        <div class="highlight__label">Технология + дизайн</div>
+      </div>
+    </section>
+
+    <section class="cases" id="cases">
+      <div class="section-header">
+        <h2>Наши проекты</h2>
+        <p>От capsule коллекций до фирменной одежды для крупных компаний.</p>
+      </div>
+      <div class="cases__grid">
+        <article class="case">
+          <div class="case__image case__image--one"></div>
+          <div class="case__body">
+            <h3>Коллекция для streetwear бренда</h3>
+            <p>
+              Подготовили лекала, подобрали материалы, запустили тираж из 500 единиц и
+              контролировали все этапы производства.
+            </p>
+          </div>
+        </article>
+        <article class="case case--reverse">
+          <div class="case__image case__image--two"></div>
+          <div class="case__body">
+            <h3>Корпоративный мерч для креативного агентства</h3>
+            <p>
+              Разработали уникальный крой худи и футболок, нанесли шёлкографию и подготовили
+              подарочные наборы.
+            </p>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case__image case__image--three"></div>
+          <div class="case__body">
+            <h3>Форма для команды доставки</h3>
+            <p>
+              Сделали удобную и износостойкую экипировку с высокой видимостью и защитой от
+              погоды.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote">
+      <div class="quote__badge">artmachine</div>
+      <div class="quote__content">
+        <p>
+          «Только хорошее производство спасает даже самый смелый дизайн. Мы делаем всё, чтобы
+          идеи наших клиентов выглядели безупречно и служили долго».
+        </p>
+        <span>— Команда Artmachine</span>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="section-header">
+        <h2>Как мы работаем</h2>
+        <p>Прозрачные этапы сотрудничества от концепции до логистики.</p>
+      </div>
+      <div class="process__grid">
+        <article class="step">
+          <span class="step__number">01</span>
+          <h3>Исследование</h3>
+          <p>Погружаемся в задачу, анализируем референсы и формируем техническое задание.</p>
+        </article>
+        <article class="step">
+          <span class="step__number">02</span>
+          <h3>Прототипы</h3>
+          <p>Разрабатываем лекала, подбираем материалы, создаём тестовые образцы и согласуем детали.</p>
+        </article>
+        <article class="step">
+          <span class="step__number">03</span>
+          <h3>Производство</h3>
+          <p>Запускаем тираж, контролируем качество на каждом этапе, организуем упаковку и логистику.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="faq" id="faq">
+      <div class="section-header">
+        <h2>Вопросы и ответы</h2>
+        <p>Если не нашли ответ — напишите нам, поможем разобраться.</p>
+      </div>
+      <div class="faq__grid">
+        <article class="faq__item">
+          <h3>Какой минимальный тираж вы берёте в работу?</h3>
+          <p>Минимальный запуск — от 50 единиц. Для уникальных изделий обсуждаем условия индивидуально.</p>
+        </article>
+        <article class="faq__item">
+          <h3>Сколько времени занимает производство?</h3>
+          <p>В среднем от 4 до 8 недель, в зависимости от сложности и объёма партии.</p>
+        </article>
+        <article class="faq__item">
+          <h3>Можете ли вы помочь с дизайном?</h3>
+          <p>Да, наши дизайнеры разработают концепцию, фирменный стиль и упаковку под задачу бренда.</p>
+        </article>
+        <article class="faq__item">
+          <h3>Работаете ли вы с небольшими брендами?</h3>
+          <p>Мы поддерживаем начинающие проекты и помогаем им масштабироваться.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="team">
+      <div class="cta__content">
+        <h2>Готовы обсудить ваш проект</h2>
+        <p>Заполните форму и мы свяжемся в течение рабочего дня, чтобы обсудить детали.</p>
+        <form class="cta__form">
+          <div class="form__row">
+            <label>
+              Имя
+              <input type="text" placeholder="Как к вам обращаться" />
+            </label>
+            <label>
+              Телефон
+              <input type="tel" placeholder="+7 (___) ___-__-__" />
+            </label>
+          </div>
+          <label>
+            Комментарий
+            <textarea placeholder="Расскажите о задаче"></textarea>
+          </label>
+          <button type="submit" class="btn btn--primary">Отправить</button>
+        </form>
+      </div>
+      <div class="cta__visual">
+        <div class="cta__photo"></div>
+        <div class="cta__note">Команда технологов, дизайнеров и конструкторов</div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <div class="logo">artmachine</div>
+        <p>Производство одежды на заказ в Москве и по всей России.</p>
+      </div>
+      <div class="footer__links">
+        <div>
+          <span class="footer__title">Навигация</span>
+          <a href="#services">Услуги</a>
+          <a href="#cases">Кейсы</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div>
+          <span class="footer__title">Контакты</span>
+          <a href="tel:+78001234567">8 800 123 45 67</a>
+          <a href="mailto:info@artmachine.ru">info@artmachine.ru</a>
+          <span>Москва, ул. Промышленная, 12</span>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2024 Artmachine</span>
+        <a href="#">Политика конфиденциальности</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
