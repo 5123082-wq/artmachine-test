@@ -1,0 +1,12 @@
+{
+  "name": "Art Machine",
+  "logo_primary": "/public/media/brand/logo-main.svg",
+  "logo_favicon": "/public/media/brand/favicon.svg",
+  "palette": {
+    "base": "#F2F2F2",
+    "accent_1": "#CED4F8",
+    "accent_2": "#C1E2C1",
+    "ink": "#222222",
+    "brand": "#FEEE84"
+  }
+}

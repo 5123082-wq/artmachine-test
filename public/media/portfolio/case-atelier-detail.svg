@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Деталь кейса Atelier</title>
+  <rect width="800" height="600" fill="#CED4F8" />
+  <path d="M120 500 Q400 80 680 500" fill="#C1E2C1" stroke="#222222" stroke-width="6" />
+</svg>

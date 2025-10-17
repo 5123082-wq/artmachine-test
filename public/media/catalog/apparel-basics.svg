@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" role="img" aria-labelledby="title">
+  <title id="title">Базовая линейка одежды</title>
+  <rect width="400" height="260" rx="24" fill="#CED4F8" />
+  <path d="M120 200 L140 80 L200 60 L260 80 L280 200 Z" fill="#FEEE84" stroke="#222222" stroke-width="4" />
+</svg>

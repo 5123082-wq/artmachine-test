@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" role="img" aria-labelledby="title">
+  <title id="title">Корпоративная форма</title>
+  <rect width="400" height="260" rx="24" fill="#C1E2C1" />
+  <rect x="120" y="70" width="160" height="140" rx="28" fill="#222222" />
+  <circle cx="200" cy="140" r="28" fill="#FEEE84" />
+</svg>
