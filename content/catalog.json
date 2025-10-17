@@ -40,6 +40,18 @@
           "media": "/public/media/catalog/promo-merch.svg"
         }
       ]
+    },
+    {
+      "id": "production",
+      "title": "Производство capsule-партий",
+      "summary": "Тестовые тиражи и капсулы под предзаказ",
+      "items": [
+        {
+          "sku": "capsule-set",
+          "name": "Набор образцов тканей",
+          "media": "/public/media/catalog/apparel-basics.svg"
+        }
+      ]
     }
   ]
 }
