@@ -1,0 +1,45 @@
+{
+  "directions": [
+    {
+      "id": "streetwear",
+      "title": "Стритвир",
+      "summary": "Коллекции для независимых брендов",
+      "items": [
+        {
+          "sku": "sw-hoodie",
+          "name": "Худи оверсайз",
+          "media": "/public/media/catalog/apparel-basics.svg"
+        },
+        {
+          "sku": "sw-tees",
+          "name": "Футболки тиражные",
+          "media": "/public/media/catalog/promo-merch.svg"
+        }
+      ]
+    },
+    {
+      "id": "corporate",
+      "title": "Корпоративная одежда",
+      "summary": "Форма и униформа для персонала",
+      "items": [
+        {
+          "sku": "corp-kit",
+          "name": "Комплект для ресепшен",
+          "media": "/public/media/catalog/corporate-wear.svg"
+        }
+      ]
+    },
+    {
+      "id": "promo",
+      "title": "Промо-мерч",
+      "summary": "Подарочные наборы и сувениры",
+      "items": [
+        {
+          "sku": "promo-pack",
+          "name": "Набор для мероприятий",
+          "media": "/public/media/catalog/promo-merch.svg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720" role="img" aria-labelledby="title">
+  <title id="title">Текстура ткани</title>
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#CED4F8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#C1E2C1" stop-opacity="0.8" />
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="720" fill="url(#grad)" />
+  <g stroke="#FEEE84" stroke-width="2" stroke-opacity="0.3">
+    <path d="M0 120 Q360 40 720 120 T1440 120" fill="none" />
+    <path d="M0 360 Q360 280 720 360 T1440 360" fill="none" />
+    <path d="M0 600 Q360 520 720 600 T1440 600" fill="none" />
+  </g>
+</svg>

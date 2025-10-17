@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title">
+  <title id="title">Кейс спортивной команды</title>
+  <rect width="600" height="400" rx="32" fill="#F2F2F2" />
+  <path d="M100 320 L200 80 L300 320 Z" fill="#CED4F8" />
+  <path d="M220 320 L320 100 L420 320 Z" fill="#C1E2C1" />
+</svg>

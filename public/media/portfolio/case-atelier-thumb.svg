@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400" role="img" aria-labelledby="title">
+  <title id="title">Кейс для бренда Atelier</title>
+  <rect width="600" height="400" rx="32" fill="#222222" />
+  <rect x="60" y="80" width="480" height="240" rx="24" fill="#CED4F8" />
+  <circle cx="180" cy="200" r="56" fill="#FEEE84" />
+</svg>

@@ -1,0 +1,16 @@
+{
+  "assets": [
+    {"id": "logo-main", "path": "/public/media/brand/logo-main.svg", "alt": "Логотип Art Machine"},
+    {"id": "favicon", "path": "/public/media/brand/favicon.svg", "alt": "Иконка Art Machine"},
+    {"id": "hero-texture", "path": "/public/media/hero/hero-texture.svg", "alt": "Абстрактный фон"},
+    {"id": "catalog-apparel", "path": "/public/media/catalog/apparel-basics.svg", "alt": "Иллюстрация базовой одежды"},
+    {"id": "catalog-corporate", "path": "/public/media/catalog/corporate-wear.svg", "alt": "Иллюстрация корпоративной формы"},
+    {"id": "catalog-promo", "path": "/public/media/catalog/promo-merch.svg", "alt": "Иллюстрация промо-наборов"},
+    {"id": "portfolio-atelier-thumb", "path": "/public/media/portfolio/case-atelier-thumb.svg", "alt": "Обложка кейса Atelier"},
+    {"id": "portfolio-atelier-detail", "path": "/public/media/portfolio/case-atelier-detail.svg", "alt": "Деталь кейса Atelier"},
+    {"id": "portfolio-retail-thumb", "path": "/public/media/portfolio/case-retail-thumb.svg", "alt": "Обложка кейса сети магазинов"},
+    {"id": "portfolio-retail-detail", "path": "/public/media/portfolio/case-retail-detail.svg", "alt": "Деталь кейса сети магазинов"},
+    {"id": "portfolio-sport-thumb", "path": "/public/media/portfolio/case-sport-thumb.svg", "alt": "Обложка кейса спортивной команды"},
+    {"id": "portfolio-sport-detail", "path": "/public/media/portfolio/case-sport-detail.svg", "alt": "Деталь кейса спортивной команды"}
+  ]
+}

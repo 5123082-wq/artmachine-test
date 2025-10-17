@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "id": "atelier-drop",
+      "title": "Дроп для бренда Atelier",
+      "tags": ["streetwear", "пилот"],
+      "thumb": "/public/media/portfolio/case-atelier-thumb.svg",
+      "images": [
+        "/public/media/portfolio/case-atelier-thumb.svg",
+        "/public/media/portfolio/case-atelier-detail.svg"
+      ]
+    },
+    {
+      "id": "retail-uniform",
+      "title": "Форма сети магазинов",
+      "tags": ["retail", "uniform"],
+      "thumb": "/public/media/portfolio/case-retail-thumb.svg",
+      "images": [
+        "/public/media/portfolio/case-retail-thumb.svg",
+        "/public/media/portfolio/case-retail-detail.svg"
+      ]
+    },
+    {
+      "id": "sports-team",
+      "title": "Экипировка команды",
+      "tags": ["sport", "capsule"],
+      "thumb": "/public/media/portfolio/case-sport-thumb.svg",
+      "images": [
+        "/public/media/portfolio/case-sport-thumb.svg",
+        "/public/media/portfolio/case-sport-detail.svg"
+      ]
+    }
+  ]
+}
