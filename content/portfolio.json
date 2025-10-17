@@ -29,6 +29,33 @@
         "/public/media/portfolio/case-sport-thumb.svg",
         "/public/media/portfolio/case-sport-detail.svg"
       ]
+    },
+    {
+      "id": "promo-kit",
+      "title": "Промо-набор для конференции",
+      "tags": ["promo", "b2b"],
+      "thumb": "/public/media/portfolio/case-atelier-thumb.svg",
+      "images": [
+        "/public/media/portfolio/case-atelier-thumb.svg"
+      ]
+    },
+    {
+      "id": "workwear",
+      "title": "Техническая форма для склада",
+      "tags": ["workwear", "safety"],
+      "thumb": "/public/media/portfolio/case-retail-thumb.svg",
+      "images": [
+        "/public/media/portfolio/case-retail-thumb.svg"
+      ]
+    },
+    {
+      "id": "capsule-launch",
+      "title": "Capsule-дроп для инфлюенсера",
+      "tags": ["capsule", "digital"],
+      "thumb": "/public/media/portfolio/case-sport-thumb.svg",
+      "images": [
+        "/public/media/portfolio/case-sport-thumb.svg"
+      ]
     }
   ]
 }

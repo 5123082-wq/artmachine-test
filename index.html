@@ -4,26 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Art Machine — производство одежды на заказ</title>
-    <meta
-      name="description"
-      content="Art Machine — швейное производство полного цикла: разработка коллекций, корпоративная форма и промо-мерч."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Art Machine — производство одежды на заказ" />
-    <meta
-      property="og:description"
-      content="Разрабатываем и отшиваем коллекции, корпоративную форму и мерч для брендов."
-    />
-    <meta property="og:image" content="/public/media/brand/logo-main.svg" />
+    <title>Art Machine</title>
+    <meta name="description" content="Art Machine — швейное производство полного цикла." />
     <link rel="icon" href="/public/media/brand/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
+    <a class="skip-link" href="#main">Перейти к основному содержанию</a>
+    <header class="site-header" data-theme="light">
       <div class="site-header__inner">
         <a class="brand" href="#hero" aria-label="Art Machine">
           <img
+            id="brand-logo"
             src="/public/media/brand/logo-main.svg"
             width="160"
             height="48"
@@ -32,13 +24,15 @@
           />
           <!-- TODO: добавить srcset/sizes для ретины -->
         </a>
-        <nav class="primary-nav" aria-label="Основная навигация">
+        <button class="site-header__burger" type="button" aria-controls="primary-nav" aria-expanded="false">
+          <span class="site-header__burger-label">Меню</span>
+          <span class="site-header__burger-icon" aria-hidden="true"></span>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Основная навигация">
           <ul>
-            <li><a href="#hero">Главная</a></li>
             <li><a href="#catalog">Каталог</a></li>
-            <li><a href="#assistant">AI-ассистент</a></li>
-            <li><a href="#stats">Метрики</a></li>
-            <li><a href="#portfolio">Кейсы</a></li>
+            <li><a href="#stats">Цифры</a></li>
+            <li><a href="#portfolio">Портфолио</a></li>
             <li><a href="#reviews">Отзывы</a></li>
             <li><a href="#faq">FAQ</a></li>
             <li><a href="#contacts">Контакты</a></li>
@@ -47,95 +41,187 @@
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <section id="hero" class="hero" aria-labelledby="hero-title">
-        <div class="hero__body">
-          <p class="hero__eyebrow">Швейное производство полного цикла</p>
-          <h1 id="hero-title">Создаём одежду и мерч для брендов и команд</h1>
-          <p class="hero__lead">
-            От первой идеи и подбора материалов до упаковки и отправки партии клиенту.
+        <div class="hero__media" aria-hidden="true"></div>
+        <div class="hero__gradient" aria-hidden="true"></div>
+        <div class="hero__inner">
+          <p class="hero__eyebrow" data-brand-eyebrow>Швейное производство полного цикла</p>
+          <h1 id="hero-title" data-brand-title>Создаём одежду и мерч для брендов и команд</h1>
+          <p class="hero__lead" data-brand-subtitle>
+            От идеи и подбора материалов до упаковки и отправки партии клиенту.
           </p>
           <div class="hero__actions">
-            <button type="button" class="btn btn--brand">Запросить расчёт</button>
-            <button type="button" class="btn btn--ink">Открыть AI-ассистент</button>
+            <button type="button" class="btn btn--brand" data-action="open-quote">Запросить расчёт</button>
+            <button type="button" class="btn btn--ink" data-action="open-assistant">Открыть AI-ассистент</button>
           </div>
         </div>
-        <figure class="hero__visual">
-          <img
-            src="/public/media/hero/hero-texture.svg"
-            width="720"
-            height="480"
-            alt="Текстура ткани с фирменными цветами"
-            loading="lazy"
-          />
-          <!-- TODO: подключить адаптивный srcset и sizes -->
-        </figure>
       </section>
 
-      <section id="catalog" class="section" aria-labelledby="catalog-title">
+      <section id="catalog" class="section section--catalog" aria-labelledby="catalog-title">
         <div class="section__inner">
-          <h2 id="catalog-title">Каталог</h2>
+          <div class="section__head">
+            <h2 id="catalog-title">Каталог направлений</h2>
+            <p class="section__lead">Выберите направление и добавьте в расчёт.</p>
+          </div>
+          <div class="catalog-grid" data-catalog role="list">
+            <p class="section__empty">Каталог скоро появится.</p>
+          </div>
         </div>
       </section>
 
-      <section id="assistant" class="section" aria-labelledby="assistant-title">
+      <section id="stats" class="section section--stats" aria-labelledby="stats-title">
         <div class="section__inner">
-          <h2 id="assistant-title">AI-ассистент</h2>
+          <div class="section__head">
+            <h2 id="stats-title">Цифры за 12 месяцев</h2>
+            <p class="section__lead">Данные обновляются автоматически из производственной CRM.</p>
+          </div>
+          <div class="stats-grid" data-stats role="list">
+            <p class="section__empty">Статистика обновляется.</p>
+          </div>
         </div>
       </section>
 
-      <section id="stats" class="section" aria-labelledby="stats-title">
+      <section id="portfolio" class="section section--portfolio" aria-labelledby="portfolio-title">
         <div class="section__inner">
-          <h2 id="stats-title">Метрики</h2>
+          <div class="section__head">
+            <h2 id="portfolio-title">Портфолио</h2>
+            <p class="section__lead">Работы, которыми мы гордимся.</p>
+          </div>
+          <div class="portfolio-grid" data-portfolio role="list">
+            <p class="section__empty">Портфолио готовится.</p>
+          </div>
         </div>
       </section>
 
-      <section id="portfolio" class="section" aria-labelledby="portfolio-title">
+      <section id="reviews" class="section section--reviews" aria-labelledby="reviews-title">
         <div class="section__inner">
-          <h2 id="portfolio-title">Портфолио</h2>
-        </div>
-      </section>
-
-      <section id="reviews" class="section" aria-labelledby="reviews-title">
-        <div class="section__inner">
-          <h2 id="reviews-title">Отзывы</h2>
+          <div class="section__head">
+            <h2 id="reviews-title">Отзывы</h2>
+            <p class="section__lead">Что говорят клиенты о работе с нами.</p>
+          </div>
+          <div class="reviews-grid" data-reviews role="list">
+            <p class="section__empty">Отзывы загружаются.</p>
+          </div>
         </div>
       </section>
 
       <section id="faq" class="section section--faq" aria-labelledby="faq-title">
         <div class="section__inner">
-          <h2 id="faq-title">FAQ</h2>
-          <div class="faq" role="list">
-            <button type="button" class="faq__item" aria-expanded="false">
-              <span class="faq__question">Вопрос 1</span>
-            </button>
-            <button type="button" class="faq__item" aria-expanded="false">
-              <span class="faq__question">Вопрос 2</span>
-            </button>
-            <button type="button" class="faq__item" aria-expanded="false">
-              <span class="faq__question">Вопрос 3</span>
-            </button>
+          <div class="section__head">
+            <h2 id="faq-title">FAQ</h2>
+            <p class="section__lead">Ответы на самые частые вопросы.</p>
+          </div>
+          <div class="faq" data-faq role="list">
+            <p class="section__empty">Скоро добавим ответы.</p>
           </div>
         </div>
       </section>
 
-      <section id="contacts" class="section" aria-labelledby="contacts-title">
+      <section id="contacts" class="section section--contacts" aria-labelledby="contacts-title">
         <div class="section__inner">
-          <h2 id="contacts-title">Контакты</h2>
+          <div class="section__head">
+            <h2 id="contacts-title">Контакты</h2>
+            <p class="section__lead">Свяжитесь любым удобным способом.</p>
+          </div>
+          <ul class="contacts-list" data-contacts>
+            <li>Данные обновляются...</li>
+          </ul>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="site-footer__inner">
-        <p>© <span data-year></span> Art Machine</p>
+        <p>
+          © <span data-year></span>
+          <span data-brand-name>Art Machine</span>
+        </p>
       </div>
     </footer>
 
-    <script>
-      document.querySelectorAll('[data-year]').forEach(function (node) {
-        node.textContent = new Date().getFullYear();
-      });
-    </script>
+    <div class="toast" id="flash" role="status" aria-live="polite"></div>
+
+    <div class="modal" id="quote-modal" aria-hidden="true" role="dialog" aria-labelledby="quote-title">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__dialog">
+        <button class="modal__close" type="button" data-close-modal aria-label="Закрыть форму"></button>
+        <h2 id="quote-title">Запросить расчёт</h2>
+        <form id="quote-form" class="form" novalidate>
+          <div class="form__group">
+            <label for="quote-name">Имя*</label>
+            <input id="quote-name" name="name" type="text" required autocomplete="name" />
+          </div>
+          <div class="form__group">
+            <label for="quote-contact">Контакт*</label>
+            <input
+              id="quote-contact"
+              name="contact"
+              type="text"
+              required
+              placeholder="email или телефон"
+              autocomplete="email"
+            />
+          </div>
+          <div class="form__group">
+            <label for="quote-product">Продукт</label>
+            <input id="quote-product" name="product" type="text" />
+          </div>
+          <div class="form__group">
+            <label for="quote-qty">Тираж</label>
+            <input id="quote-qty" name="qty" type="number" min="1" step="1" />
+          </div>
+          <div class="form__group">
+            <label for="quote-comment">Комментарий</label>
+            <textarea id="quote-comment" name="comment" rows="4"></textarea>
+          </div>
+          <div class="form__group">
+            <label for="quote-file">Бриф или референсы (опционально)</label>
+            <input id="quote-file" name="file" type="file" />
+          </div>
+          <div class="form__group form__group--hidden">
+            <label for="quote-honeypot">Оставьте поле пустым</label>
+            <input id="quote-honeypot" name="website" type="text" tabindex="-1" autocomplete="off" />
+          </div>
+          <button class="btn btn--ink form__submit" type="submit">Отправить</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="assistant" id="assistant-panel" aria-hidden="true">
+      <div class="assistant__overlay" data-assistant-close></div>
+      <aside class="assistant__panel" role="complementary" aria-labelledby="assistant-title-panel">
+        <header class="assistant__header">
+          <h2 id="assistant-title-panel">AI-ассистент</h2>
+          <button class="assistant__close" type="button" data-assistant-close aria-label="Закрыть ассистента"></button>
+        </header>
+        <div class="assistant__body">
+          <ul class="assistant__list" data-assistant-output>
+            <li class="assistant__placeholder">Сформулируйте запрос, и ассистент предложит идеи.</li>
+          </ul>
+        </div>
+        <form class="assistant__form" id="assistant-form">
+          <label class="assistant__label" for="assistant-prompt">Опишите задачу</label>
+          <textarea id="assistant-prompt" name="prompt" rows="3" required></textarea>
+          <button class="btn btn--brand assistant__submit" type="submit">Сгенерировать</button>
+        </form>
+      </aside>
+    </div>
+
+    <div class="modal" id="portfolio-modal" aria-hidden="true" role="dialog" aria-labelledby="portfolio-modal-title">
+      <div class="modal__backdrop" data-close-modal></div>
+      <div class="modal__dialog modal__dialog--media">
+        <button class="modal__close" type="button" data-close-modal aria-label="Закрыть"></button>
+        <figure class="portfolio-modal" data-portfolio-modal>
+          <img src="" alt="" width="960" height="640" loading="lazy" />
+          <!-- TODO: добавить srcset/sizes для ретины -->
+          <figcaption></figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <script id="ld-org" type="application/ld+json"></script>
+    <script id="ld-faq" type="application/ld+json"></script>
+    <script type="module" src="scripts/main.js"></script>
   </body>
 </html>

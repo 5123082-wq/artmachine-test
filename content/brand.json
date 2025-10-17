@@ -1,7 +1,25 @@
 {
   "name": "Art Machine",
-  "logo_primary": "/public/media/brand/logo-main.svg",
-  "logo_favicon": "/public/media/brand/favicon.svg",
+  "tagline": "Производство одежды на заказ",
+  "description": "Art Machine — швейное производство полного цикла: коллекции для брендов, корпоративная форма и промо-мерч.",
+  "url": "https://artmachine.example",
+  "logo_light": "/public/media/brand/logo-main.svg",
+  "logo_dark": "/public/media/brand/logo-main.svg",
+  "favicon": "/public/media/brand/favicon.svg",
+  "hero": {
+    "eyebrow": "Швейное производство полного цикла",
+    "title": "Создаём одежду и мерч для брендов и команд",
+    "subtitle": "От идеи и подбора материалов до упаковки и отправки партии клиенту.",
+    "background": "/public/media/hero/hero_1920.webp",
+    "cta_primary": "Запросить расчёт",
+    "cta_secondary": "Открыть AI-ассистент"
+  },
+  "contacts": {
+    "email": "hello@artmachine.example",
+    "phone": "+7 (495) 123-45-67",
+    "address": "Москва, ул. Фабричная, 12",
+    "schedule": "Пн–Пт, 10:00–19:00"
+  },
   "palette": {
     "base": "#F2F2F2",
     "accent_1": "#CED4F8",
